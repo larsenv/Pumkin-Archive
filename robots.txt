@@ -1,0 +1,14 @@
+User-Agent: *
+Disallow: /ppal/ipn
+Disallow: /learn-english/course
+Disallow: /learn-english/language-skills
+Disallow: /learn-english/hear-from-our-users
+Disallow: /learn-english/frequently-asked-questions
+Disallow: /learn-english/free-trial/step1
+Disallow: /about
+Disallow: /about/contact
+Disallow: /privacy
+Disallow: /terms
+Disallow: /signup
+Disallow: /downloads
+sitemap: http://pumkin.com/schemas/sitemap.xml

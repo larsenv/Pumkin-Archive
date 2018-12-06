@@ -1,0 +1,245 @@
+/* CSS Document */
+
+body{
+	text-align:center;
+	background:#ff811e url(../images/bg_body.gif) no-repeat center top;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:80%;
+	margin:0;
+}
+#site-container{
+	text-align:left;
+	width:768px;
+	min-width:768px;
+	margin:0 auto;
+	position:relative;
+	background:url(../images/bg_container.gif) no-repeat center top;
+	/*border:1px solid #000;*/
+}
+
+/*logo*/
+h1{
+	margin:0;
+	padding:0;
+	text-indent:-9999px;
+}
+h1 a{
+	display:block;
+	width:178px;
+	height:114px;
+	background:url(../images/logo-pumkin-main.gif) no-repeat 0px 0px;
+	overflow:hidden;
+}
+/*main menu bar*/
+ul#main-menu{
+	list-style-type:none;
+	position:absolute;
+	width:458px;
+	right:20px;
+	top:20px;
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	z-index:3;
+}
+ul#main-menu li{
+	float:left;
+	margin:0;
+	padding:0 24px 0 0;
+}
+ul#main-menu li#bt-aboutus{
+	padding:0;
+}
+ul#main-menu li a{
+	display:block;
+	margin:0;
+	padding:0;
+	width:96px;
+	height:92px;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+li#bt-pumkinland a{
+	background:url(../images/bt-pumkinland.gif) no-repeat 0px 0px;
+}
+li#bt-pumkinland a:hover {
+	background:url(../images/bt-pumkinland.gif) no-repeat 0px -92px;
+}
+li#bt-pumkinland a.current, li#bt-pumkinland a.current:hover {
+	background:url(../images/bt-pumkinland.gif) no-repeat 0px -184px;
+	height:132px;
+}
+li#bt-learnhome a{
+	background:url(../images/bt-learnhome.gif) no-repeat 0px 0px;
+}
+li#bt-learnhome a:hover {
+	background:url(../images/bt-learnhome.gif) no-repeat 0px -92px;
+}
+li#bt-learnhome a.current, li#bt-learnhome a.current:hover {
+	background:url(../images/bt-learnhome.gif) no-repeat 0px -184px;
+	height:132px;
+}
+li#bt-products a{
+	background:url(../images/bt-products.gif) no-repeat 0px 0px;
+}
+li#bt-products a:hover {
+	background:url(../images/bt-products.gif) no-repeat 0px -92px;
+}
+li#bt-products a.current, li#bt-products a.current:hover {
+	background:url(../images/bt-products.gif) no-repeat 0px -184px;
+	height:132px;
+}
+li#bt-aboutus a{
+	background:url(../images/bt-aboutus.gif) no-repeat 0px 0px;
+}
+li#bt-aboutus a:hover {
+	background:url(../images/bt-aboutus.gif) no-repeat 0px -92px;
+}
+li#bt-aboutus a.current, li#bt-aboutus a.current:hover {
+	background:url(../images/bt-aboutus.gif) no-repeat 0px -184px;
+	height:132px;
+}
+/*sub menu*/
+ul#sub-menu {
+	position:absolute;
+	left:-270px;
+	top:124px;
+	z-index:1;
+	width:728px;
+	list-style-type:none;
+	background:url(../images/bg_submenu.gif) no-repeat 0px 0px;
+	height:25px;
+	margin:0;
+	padding:4px 0 0 0;
+	text-align:center;
+}
+ul#sub-menu li{
+	padding:0;
+	margin:0 12px;
+	display:inline;
+	float:none;
+}
+/*ul#sub-menu li#sub-menu-first{
+	margin:0;
+}*/
+ul#sub-menu li a{
+	background:none;
+	display:inline;
+	width:auto;
+	height:auto;
+	text-indent:0;
+	color:#000;
+	font-weight:bold;
+	font-size:95%;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	letter-spacing:0.05em;
+}
+ul#sub-menu li a:hover, ul#main-menu li ul#sub-menu li a.current{
+	background:none;
+	color:#fff;
+}
+
+/*content area*/
+#content{
+	padding:70px 20px 0 20px;
+}
+#content object{
+	margin:0 0 20px 0;
+}
+#home #content{
+	padding-top:40px;
+}
+h2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:200%;
+	margin:0 0 1em 0;
+}
+h3{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:130%;
+	margin:0 0 .75em 0;
+}
+#textpage-outer {
+	width:728px;
+	background:url(../images/bg-textpage-bot.gif) no-repeat left bottom;
+	padding:0 0 30px 0;
+}
+#textpage-inner {
+	background:url(../images/bg-textpage-top.gif) no-repeat left top;
+	padding:30px 40px 10px 30px;
+}
+#textpage-inner p{
+	margin:0 0 1.2em 0;
+}
+/*footer*/
+#footer{
+	text-align:center;
+	position:relative;
+}
+div#footer-links{
+	/*padding:10px 0 0 220px;*/
+	font-size:80%;
+}
+#footer-links a{
+	display:block;
+	float:left;
+	width:96px;
+	height:90px;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+p#pumdemoBanner{
+	padding:10px 0 0 0;
+	font-size:80%;
+}
+
+p#copyright{
+	padding:5px 0 5px 0;
+	font-size:80%;
+}
+a#bt-corporate{
+	background:url(../images/bt-corporate.gif) no-repeat 0px 0px;
+	padding:0 30px 0 0;
+}
+a#bt-corporate:hover {
+	background:url(../images/bt-corporate.gif) no-repeat 0px -90px;
+}
+a#bt-invest{
+	background:url(../images/bt-invest.gif) no-repeat 0px 0px;
+	padding:0 30px 0 0;
+}
+a#bt-invest:hover {
+	background:url(../images/bt-invest.gif) no-repeat 0px -90px;
+}
+a#bt-contact{
+	background:url(../images/bt-contact.gif) no-repeat 0px 0px;
+}
+a#bt-contact:hover {
+	background:url(../images/bt-contact.gif) no-repeat 0px -90px;
+}
+
+/*generic*/
+.pic-left {
+	float:left;
+	padding:1em 1em 1em 0;
+}
+.pic-right {
+	float:right;
+	padding:1em 0 1em 1em;
+}
+a img {
+	border:none;
+}
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+.clearfix {display:inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+/* End hide from IE-mac */

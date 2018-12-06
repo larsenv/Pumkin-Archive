@@ -1,0 +1,41 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="styles/pum01.css" rel="stylesheet" type="text/css" />
+<title>Pumkin - Digital English Education</title>
+</head>
+
+<body>
+<div id="site-container">
+
+
+
+<div id="content">
+
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" 
+	codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0"
+	width="727" height="547"
+	id="cartoon player" align="middle">
+<param name="allowScriptAccess" value="sameDomain" />
+<param name="movie" value="cartoonplayer.swf?swfname=farmerpumkin.swf"/>
+<param name="quality" value="high"/>
+<param name="scale" value="exactfit"/>
+<param name="wmode" value="transparent"/>
+<param name="bgcolor" value="#ffffff"/>
+<embed src="cartoonplayer.swf?swfname=farmerpumkin.swf" quality="high" scale="exactfit" wmode="transparent" 
+	bgcolor="#ffffff" width="727" height="547" name="cartoon player" align="middle"
+	allowScriptAccess="sameDomain" type="application/x-shockwave-flash"
+	pluginspage="http://www.macromedia.com/go/getflashplayer"/>
+</object>
+
+
+</div>
+
+
+</div>
+</body>
+</html>

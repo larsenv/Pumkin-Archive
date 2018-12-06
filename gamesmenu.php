@@ -1,0 +1,60 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="styles/pum01.css" rel="stylesheet" type="text/css" />
+<title>Pumkin - Digital English Education</title>
+</head>
+
+<body>
+<div id="site-container">
+
+<h1><a href="" title="Pumkin - Digital English Education">Pumkin - Digital English Education</a></h1>
+
+<ul id="main-menu">
+	<li id="bt-pumkinland"><a href="" class='current'>Pumkinland</a></li>
+	<li id="bt-learnhome"><a  href="learn/learn.php" >Learn@Home</a></li>
+	<li id="bt-products"><a href="products/pumkinshow.php" >Products</a></li>
+	<li id="bt-aboutus"><a href="about/whatis.php" >About Us</a>
+
+	
+	<ul id="sub-menu"><li ><a href="cartoonmenu.php" >Pumtoons</a></li><li ><a href="videomenu.php" >The Pumkin Show</a></li><li ><a href="musicmenu.php" >Pumkin Music</a></li><li ><a href="gamesmenu.php" class="current" >Pumkin Games</a></li><li ><a href="books/books.php" >Pumkin Books</a></li></ul>		
+	</li>
+</ul>
+<div id="content">
+
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" 
+	codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0"
+	width="727" height="533"
+	id="menu" align="middle">
+<param name="allowScriptAccess" value="sameDomain" />
+<param name="movie" value="menus/gamesmenuplayer.swf?menuname=menus/gamesmenu.swf"/>
+<param name="quality" value="high"/>
+<param name="scale" value="exactfit"/>
+<param name="wmode" value="transparent"/>
+<param name="bgcolor" value="#ffffff"/>
+<embed src="menus/gamesmenuplayer.swf?menuname=menus/gamesmenu.swf" quality="high" scale="exactfit" wmode="transparent" 
+	bgcolor="#ffffff" width="727" height="533" name="menu" align="middle"
+	allowScriptAccess="sameDomain" type="application/x-shockwave-flash"
+	pluginspage="http://www.macromedia.com/go/getflashplayer"/>
+</object>
+
+
+</div>
+
+<div id="footer">
+	<div id="footer-links" class="clearfix">
+	<a id="bt-corporate" href="about/corporate.php"></a>
+	<a id="bt-invest" href="invest/"></a>	
+	<a id="bt-contact" href="mailto:pumkin.com@gmail.com"></a></div>
+	<p id="pumdemoBanner">
+    <a href="http://pumkin.educities.edu.tw/"><img src="images/pumdemo.gif" /></a></p>
+    <p id="copyright">&copy; 2007 Pumkin Productions. All rights reserved.</p>
+</div>
+
+
+</div>
+</body>
+</html>
